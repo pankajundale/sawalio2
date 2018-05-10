@@ -1,0 +1,129 @@
+.trillo-container-row {
+  background: #fff;
+}
+
+.app-header.navbar .navbar-brand {
+  background-image: url("../img/svg-trial-sawal.svg");
+  background-size: 120px auto;
+  height: 58px;
+}
+
+.sidebar .sidebar-nav {
+  background: #696767;
+}
+
+.app-header.navbar {
+  background-color: #fff;
+  border-bottom: 2px solid #696767;
+  font-weight: bold;
+}
+
+
+.header-button {
+  background-color: #fff !important;
+}
+
+.app-header.navbar .navbar-brand {
+  background-color: #fff;
+  border: none;
+}
+
+
+.left-footer {
+  background-color: #16b3d0;
+}
+
+
+.comment-box-left:after {
+  border-top-color: #16b3d0;
+}
+
+.left-column-cell .profile-picture img {
+  background-color: #16b3d0;
+}
+
+.btn-info {
+  background-color: #16b3d0;
+}
+
+.title-bar {
+  color: #16b3d0;
+}
+
+.div-select-account-box .select-picker {
+  color: #16b3d0 !important;
+}
+
+.keypad-actions button {
+  background-color: #16b3d0;
+}
+
+.cb-third-pannel-left {
+  background-color: #b0f1fe;
+}
+
+
+.comment-box .button {
+  background: #16b3d0;
+}
+
+.comment-box-left .button {
+  background: #f1f5f8;
+  color: #444444;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .navbar .dropdown-toggle,
+.navbar .navbar-nav .dropdown-toggle {
+  color: #21c3d6;
+}
+
+.navbar-toggler {
+  font-size: 2.0rem;
+}
+
+.page-title {
+  font-size: 1.20rem;
+  color: #979797;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+/* Comment Box Left Css Start */
+
+.comment-box {
+  width: 70%;
+  margin: auto;
+}
+
+.comment-box-left {
+
+  height: auto;
+  position: relative;
+  border-radius: 8px;
+  margin-left: 70px;
+}
+
+.user-picture-left {
+  position: absolute;
+}
+
+.comment-box-left p {
+  margin-bottom: 0px;
+  color: #000;
+}
+
+.comment-box-left .button {
+  background: #f1f5f8;
+  color: #444444;
+}
+
+/* Comment Box Left Css End */
