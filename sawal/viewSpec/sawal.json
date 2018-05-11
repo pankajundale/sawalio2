@@ -51,8 +51,69 @@
             "autoNav" : false,
             "childrenSpecs" : [
               {
+                "name" : "Row_11",
+                "alignment" : "left",
+                "autoNav" : false,
+                "childrenSpecs" : [
+                  {
+                    "name" : "NewFeedback_1",
+                    "alignment" : "center",
+                    "autoNav" : false,
+                    "flexGrow" : "1",
+                    "reference" : "NewFeedback",
+                    "tag" : "userDefined",
+                    "trigger" : "_initial_/SideBar:NewFeedback",
+                    "type" : "view"
+                  }
+                ],
+                "tag" : "userDefined",
+                "trigger" : "_initial_/SideBar:NewFeedback",
+                "type" : "row"
+              },
+              {
                 "name" : "titleBar",
                 "autoNav" : false,
+                "childrenSpecs" : [
+                  {
+                    "name" : "column_2",
+                    "alignment" : "left",
+                    "autoNav" : false,
+                    "childrenSpecs" : [
+                      {
+                        "name" : "Chatbox_3",
+                        "alignment" : "left",
+                        "autoNav" : false,
+                        "flexGrow" : "1",
+                        "reference" : "Chatbox",
+                        "tag" : "userDefined",
+                        "trigger" : "_initial_/SideBar:NewFeedback",
+                        "type" : "view"
+                      },
+                      {
+                        "name" : "Chatbox_2",
+                        "alignment" : "left",
+                        "autoNav" : false,
+                        "flexGrow" : "1",
+                        "reference" : "Chatbox",
+                        "tag" : "userDefined",
+                        "trigger" : "_initial_/SideBar:NewFeedback",
+                        "type" : "view"
+                      },
+                      {
+                        "name" : "ChatBoxInsertEmail_1",
+                        "alignment" : "left",
+                        "autoNav" : false,
+                        "flexGrow" : "1",
+                        "reference" : "ChatBoxInsertEmail",
+                        "tag" : "userDefined",
+                        "trigger" : "_initial_/SideBar:NewFeedback",
+                        "type" : "view"
+                      }
+                    ],
+                    "flexGrow" : "1",
+                    "type" : "column"
+                  }
+                ],
                 "css" : {
                   "designTimeHeight" : "30px",
                   "padding" : "5px 20px"
@@ -101,55 +162,48 @@
                 "type" : "row"
               },
               {
+                "name" : "Chatbox_4",
+                "alignment" : "center",
+                "autoNav" : false,
+                "flexGrow" : "1",
+                "reference" : "Chatbox",
+                "tag" : "userDefined",
+                "trigger" : "_initial_/SideBar:sales",
+                "type" : "view"
+              },
+              {
+                "name" : "Chatbox_6",
+                "alignment" : "center",
+                "autoNav" : false,
+                "flexGrow" : "1",
+                "reference" : "Chatbox",
+                "tag" : "userDefined",
+                "trigger" : "_initial_/SideBar:sales",
+                "type" : "view"
+              },
+              {
+                "name" : "Chatbox_5",
+                "alignment" : "center",
+                "autoNav" : false,
+                "flexGrow" : "1",
+                "reference" : "Chatbox",
+                "tag" : "userDefined",
+                "trigger" : "_initial_/SideBar:sales",
+                "type" : "view"
+              },
+              {
                 "name" : "mainContentArea",
                 "autoNav" : false,
                 "childrenSpecs" : [
                   {
-                    "name" : "column_4",
+                    "name" : "MsgInput_1",
+                    "alignment" : "left",
                     "autoNav" : false,
-                    "childrenSpecs" : [
-                      {
-                        "name" : "Row_10",
-                        "autoNav" : false,
-                        "childrenSpecs" : [
-                          {
-                            "name" : "Sales_2",
-                            "alignment" : "left",
-                            "autoNav" : false,
-                            "flexGrow" : "1",
-                            "reference" : "Sales",
-                            "tag" : "userDefined",
-                            "trigger" : "_initial_/SideBar:sales",
-                            "type" : "view"
-                          }
-                        ],
-                        "tag" : "userDefined",
-                        "trigger" : "_initial_/SideBar:sales",
-                        "type" : "row"
-                      },
-                      {
-                        "name" : "Row_11",
-                        "alignment" : "left",
-                        "autoNav" : false,
-                        "childrenSpecs" : [
-                          {
-                            "name" : "Traffic_2",
-                            "alignment" : "left",
-                            "autoNav" : false,
-                            "flexGrow" : "1",
-                            "reference" : "Traffic",
-                            "tag" : "userDefined",
-                            "trigger" : "_initial_/SideBar:sales",
-                            "type" : "view"
-                          }
-                        ],
-                        "tag" : "userDefined",
-                        "trigger" : "_initial_/SideBar:sales",
-                        "type" : "row"
-                      }
-                    ],
                     "flexGrow" : "1",
-                    "type" : "column"
+                    "reference" : "MsgInput",
+                    "tag" : "userDefined",
+                    "trigger" : "_initial_/SideBar:NewFeedback",
+                    "type" : "view"
                   },
                   {
                     "name" : "column_3",
@@ -222,6 +276,26 @@
                             "autoNav" : false,
                             "flexGrow" : "1",
                             "reference" : "Chatbox",
+                            "tag" : "userDefined",
+                            "trigger" : "_initial_/home_",
+                            "type" : "view"
+                          }
+                        ],
+                        "tag" : "userDefined",
+                        "trigger" : "_initial_/home_",
+                        "type" : "row"
+                      },
+                      {
+                        "name" : "Row_3",
+                        "alignment" : "bottom",
+                        "autoNav" : false,
+                        "childrenSpecs" : [
+                          {
+                            "name" : "TypingNameContainer _1",
+                            "alignment" : "left",
+                            "autoNav" : false,
+                            "flexGrow" : "1",
+                            "reference" : "TypingNameContainer ",
                             "tag" : "userDefined",
                             "trigger" : "_initial_/home_",
                             "type" : "view"
