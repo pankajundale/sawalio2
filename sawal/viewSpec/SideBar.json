@@ -64,6 +64,10 @@
       {
         "name" : "about",
         "type" : "script"
+      },
+      {
+        "name" : "NewFeedback",
+        "type" : "view"
       }
     ]
   }
