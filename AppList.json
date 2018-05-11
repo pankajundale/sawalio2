@@ -1,9 +1,12 @@
 [
     {
       "appTemplate" : "webapp",
+      "description" : "sawal",
       "displayName" : "sawal",
+      "htmlHeadTitle" : "sawal",
+      "keywords" : "sawal",
       "linkedApp" : "shared",
-      "multiBranch" : false,
+      "multiBranch" : true,
       "name" : "sawal",
       "requiredRoles" : "none",
       "trilloVersion" : "2.0",
