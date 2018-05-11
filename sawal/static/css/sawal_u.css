@@ -1,3 +1,7 @@
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 .trillo-container-row {
   background: #fff;
 }
@@ -6,6 +10,10 @@
   background-image: url("../img/svg-trial-sawal.svg");
   background-size: 120px auto;
   height: 58px;
+}
+
+.sidebar {
+  background: #696767;
 }
 
 .sidebar .sidebar-nav {
@@ -18,6 +26,27 @@
   font-weight: bold;
 }
 
+.sidebar .nav .nav-item {
+  margin-top: 5px;
+}
+
+
+.sidebar-nav ul li a {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sidebar .nav .nav-item .nav-link:hover {
+  background: none;
+  color: #0aa7c6;
+}
+
+.sidebar .nav .nav-item .nav-link.active,
+.sidebar .nav .nav-item .navbar .active.dropdown-toggle,
+.navbar .sidebar .nav .nav-item .active.dropdown-toggle {
+  background: none;
+  color: #34c9e6;
+}
 
 .header-button {
   background-color: #fff !important;
@@ -102,6 +131,8 @@
 .comment-box {
   width: 70%;
   margin: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .comment-box-left {
@@ -126,4 +157,114 @@
   color: #444444;
 }
 
+.name-container {
+  color: #21c3d6;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 /* Comment Box Left Css End */
+
+.Searchbox {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Searchbox input {
+  width: 80%;
+  background: #000;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.Searchbox input::placeholder {
+  color: #21c3d6;
+}
+
+.R-alignment {
+  float: right;
+  line-height: 30px;
+  color: #21c3d6 !important;
+}
+
+.add-btn {
+  bottom: 5%;
+  left: 12%;
+  position: fixed;
+  padding: 13px 18px;
+  background: #21c3d6;
+  border: none;
+  border-radius: 50%;
+}
+
+.add-btn i {
+  font-size: 30px;
+  color: #fff;
+  line-height: 100%;
+}
+
+.typing-name-container {
+  color: #21c3d6;
+  font-size: 15px;
+  font-weight: bold;
+  width: 70%;
+  left: 15%;
+  margin: 15% auto 0;
+}
+
+.headingDiv {
+  border-bottom: 3px solid #707070;
+  margin-bottom: 54px;
+  color: #6F7980;
+  text-align: center;
+
+}
+
+.headingDiv .headingSpn {
+  display: inline-block;
+  margin-bottom: -17px;
+  padding: 13px;
+  background: #fff;
+  color: #21c3d6;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.insert-email {
+  color: #2667dd !important;
+  text-decoration: none;
+}
+
+.social-link {
+  padding: 25px;
+}
+
+.social-link li {
+  float: left;
+  margin-left: 50px;
+  list-style-type: none;
+}
+
+.msg-input {
+  width: 70%;
+  border-radius: 8px;
+  padding: 1% 2%;
+  margin-left: 2%;
+  border: 2px solid #707070;
+}
+
+.msg-input input {
+  background: none;
+  width: 100%;
+  color: #707070;
+}
+
+.page-header {
+  padding: 20px;
+  font-size: 1.20rem;
+  color: #979797;
+  text-align: center;
+  font-weight: bold;
+}
